@@ -91,6 +91,82 @@ export let catalogue = [
     name: "Starch",
     category: "swallow",
   },
+  {
+    name: "Jollof Rice",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Fried Rice",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Native Rice",
+    category: "Eatery Meal",
+  },
+  {
+    name: "White Rice",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Beans",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Yam Porridge",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Spaghetti",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Macaroni",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Fried Yam",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Sauce Egg",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Plantain",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Banga Rice",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Coconut Rice",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Bole",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Salad",
+    category: "Eatery Meal",
+  },
+  {
+    name: "Pancake",
+    category: "Breakfast Menu",
+  },
+  {
+    name: "Akara",
+    category: "Breakfast Menu",
+  },
+  {
+    name: "Pap or Custard",
+    category: "Breakfast Menu",
+  },
+  {
+    name: "Moi Moi",
+    category: "Breakfast Menu",
+  },
 ];
 
 

@@ -4,6 +4,7 @@ import img from '../../assets/images/top-view-table-full-delicious-food-composit
 import breakfast from '../../assets/images/breakfast-outside-with-nuts-dried-fruit-honey-orange-juice-tea-side-view.jpg'
 import soup from '../../assets/images/chicken-red-curry-black-cup.jpg'
 import food from '../../assets/images/delicious-indian-food-tray-high-angle.jpg'
+import swallow from '../../assets/images/pounded-yam-garri-ready-eat_539365-1045.jpg'
 import ItemsModal from './ItemsModal'
 import { useItemsStore,useModal } from '../../store/store'
 import { catalogue } from '../../data/items'
@@ -45,7 +46,7 @@ export default function Sections() {
         <BentoItem
           header="Swallow"
           span=""
-          image={food}
+          image={swallow}
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           action={() => {
             setItems("swallow");
@@ -58,7 +59,7 @@ export default function Sections() {
           image={food}
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           action={() => {
-            setItems("swallow");
+            setItems("Eatery Meal");
             useModal.setState({ modal: true });
           }}
         />
@@ -67,6 +68,10 @@ export default function Sections() {
           span="col-span-2 max-sm:col-span-1"
           image={breakfast}
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
+          action={() => {
+            setItems("Breakfast Menu");
+            useModal.setState({ modal: true });
+          }}
         />
         <BentoItem
           header="Lounge Meals"
@@ -74,6 +79,10 @@ export default function Sections() {
           image={food}
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           location="Lounge"
+          action={() => {
+            setItems("Eatery Meal");
+            useModal.setState({ modal: true });
+          }}
         />
         <BentoItem
           header="Mocktails"
@@ -81,6 +90,10 @@ export default function Sections() {
           image={food}
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           location="Lounge"
+          action={() => {
+            setItems("Eatery Meal");
+            useModal.setState({ modal: true });
+          }}
         />
         <BentoItem
           header="Alcoholic Cocktails"
@@ -88,6 +101,10 @@ export default function Sections() {
           image={food}
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           location="Lounge"
+          action={() => {
+            setItems("Eatery Meal");
+            useModal.setState({ modal: true });
+          }}
         />
       </div>
     </div>
