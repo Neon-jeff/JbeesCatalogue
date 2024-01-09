@@ -5,6 +5,10 @@ import breakfast from '../../assets/images/breakfast-outside-with-nuts-dried-fru
 import soup from '../../assets/images/chicken-red-curry-black-cup.jpg'
 import food from '../../assets/images/delicious-indian-food-tray-high-angle.jpg'
 import swallow from '../../assets/images/pounded-yam-garri-ready-eat_539365-1045.jpg'
+import snacks from '../../assets/images/top-view-pastries-along-with-croissants-yummy-sweet-brown-desk-dark-floor (1).jpg'
+import mocktail from '../../assets/images/cocktail-glasses.jpg'
+import lmeals from '../../assets/images/breakfast-outside-with-nuts-dried-fruit-honey-orange-juice-tea-side-view.jpg'
+import alcohol from '../../assets/images/orange-cocktail-inside-glass-with-minced-ice-cubes-pipes.jpg'
 import ItemsModal from './ItemsModal'
 import { useItemsStore,useModal } from '../../store/store'
 import { catalogue } from '../../data/items'
@@ -55,7 +59,7 @@ export default function Sections() {
         />
         <BentoItem
           header="Eatery Meals"
-          span=""
+          span="col-span-2 max-sm:col-span-1"
           image={food}
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           action={() => {
@@ -64,8 +68,17 @@ export default function Sections() {
           }}
         />
         <BentoItem
-          header="Breakfast Menu"
+          header="Snacks"
           span="col-span-2 max-sm:col-span-1"
+          image={snacks}
+          desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
+          action={() => {
+            setItems("Eatery Meal");
+            useModal.setState({ modal: true });
+          }}
+        />
+        <BentoItem
+          header="Breakfast Menu"
           image={breakfast}
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           action={() => {
@@ -76,7 +89,7 @@ export default function Sections() {
         <BentoItem
           header="Lounge Meals"
           span=""
-          image={food}
+          image={lmeals}
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           location="Lounge"
           action={() => {
@@ -87,7 +100,7 @@ export default function Sections() {
         <BentoItem
           header="Mocktails"
           span=""
-          image={food}
+          image={mocktail}
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           location="Lounge"
           action={() => {
@@ -98,7 +111,7 @@ export default function Sections() {
         <BentoItem
           header="Alcoholic Cocktails"
           span=""
-          image={food}
+          image={alcohol}
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           location="Lounge"
           action={() => {
