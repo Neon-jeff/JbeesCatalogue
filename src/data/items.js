@@ -167,6 +167,70 @@ export let catalogue = [
     name: "Moi Moi",
     category: "Breakfast Menu",
   },
+  {
+    name: "Pizza",
+    category: "Snack",
+  },
+  {
+    name: "Shawarma",
+    category: "Snack",
+  },
+  {
+    name: "Kilishi",
+    category: "Snack",
+  },
+  {
+    name: "Sliced Cake",
+    category: "Snack",
+  },
+  {
+    name: "Meat Pie",
+    category: "Snack",
+  },
+  {
+    name: "Chicken Pie",
+    category: "Snack",
+  },
+  {
+    name: "Hot Dog",
+    category: "Snack",
+  },
+  {
+    name: "Super Roll",
+    category: "Snack",
+  },
+  {
+    name: "JBEES Pie",
+    category: "Snack",
+  },
+  {
+    name: "Special Hotdog",
+    category: "Snack",
+  },
+  {
+    name: "Burger",
+    category: "Snack",
+  },
+  {
+    name: "Beef Roll",
+    category: "Snack",
+  },
+  {
+    name: "Fish Pie",
+    category: "Snack",
+  },
+  {
+    name: "Doughnut",
+    category: "Snack",
+  },
+  {
+    name: "Plantain Chips",
+    category: "Snack",
+  },
+  {
+    name: "Chin Chin",
+    category: "Snack",
+  },
 ];
 
 

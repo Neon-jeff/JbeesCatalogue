@@ -73,7 +73,7 @@ export default function Sections() {
           image={snacks}
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           action={() => {
-            setItems("Eatery Meal");
+            setItems("Snack");
             useModal.setState({ modal: true });
           }}
         />
