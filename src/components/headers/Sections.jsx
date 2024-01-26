@@ -22,9 +22,9 @@ export default function Sections() {
       <h1 className="text-5xl font-medium pb-3 text-center max-sm:text-3xl">
         Discover our Catalogue
       </h1>
-      <p className="w-1/2 text-center max-sm:w-full">
+      {/* <p className="w-1/2 text-center max-sm:w-full">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
-      </p>
+      </p> */}
       {/* Bento grid display for the menu categories */}
       <div className="grid grid-cols-3 mt-5 max-sm:grid-cols-1 w-full gap-10 ">
         <BentoItem
