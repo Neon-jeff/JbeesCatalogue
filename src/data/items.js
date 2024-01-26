@@ -231,6 +231,74 @@ export let catalogue = [
     name: "Chin Chin",
     category: "Snack",
   },
+  {
+    name: "Spaghetti Stir Fry",
+    category: "Lounge Meal",
+  },
+  {
+    name: "Spaghetti Bolonese",
+    category: "Lounge Meal",
+  },
+  {
+    name: "Chicken and Chips",
+    category: "Lounge Meal",
+  },
+  {
+    name: "Turkey and Chips",
+    category: "Lounge Meal",
+  },
+  {
+    name: "Isiewu",
+    category: "Lounge Meal",
+  },
+  {
+    name: "Nkwobi",
+    category: "Lounge Meal",
+  },
+  {
+    name: "Pepper Soup",
+    category: "Lounge Meal",
+  },
+  {
+    name: "Fresh Orange Juice",
+    category: "Mocktails",
+  },
+  {
+    name: "Virgin Colada",
+    category: "Mocktails",
+  },
+  {
+    name: "Frozen Strawberriers",
+    category: "Mocktails",
+  },
+  {
+    name: "Mango Tango",
+    category: "Mocktails",
+  },
+  {
+    name: "Banana Milk Shake",
+    category: "Mocktails",
+  },
+  {
+    name: "Adios Motherfucker",
+    category: "Alcoholic Cocktails",
+  },
+  {
+    name: "Longland Ice Tea",
+    category: "Alcoholic Cocktails",
+  },
+  {
+    name: "Sex on the beach",
+    category: "Alcoholic Cocktails",
+  },
+  {
+    name: "Margarita",
+    category: "Alcoholic Cocktails",
+  },
+  {
+    name: "Tequila Sunrise",
+    category: "Alcoholic Cocktails",
+  },
 ];
 
 

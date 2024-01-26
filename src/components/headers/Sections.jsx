@@ -93,7 +93,7 @@ export default function Sections() {
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           location="Lounge"
           action={() => {
-            setItems("Eatery Meal");
+            setItems("Lounge Meal");
             useModal.setState({ modal: true });
           }}
         />
@@ -104,7 +104,7 @@ export default function Sections() {
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           location="Lounge"
           action={() => {
-            setItems("Eatery Meal");
+            setItems("Mocktails");
             useModal.setState({ modal: true });
           }}
         />
@@ -115,7 +115,7 @@ export default function Sections() {
           desc="Feast on Flavorful Creations—Your Culinary Adventure Starts Now! Join Us"
           location="Lounge"
           action={() => {
-            setItems("Eatery Meal");
+            setItems("Alcoholic Cocktails");
             useModal.setState({ modal: true });
           }}
         />
