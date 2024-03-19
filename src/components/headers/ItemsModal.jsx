@@ -19,7 +19,7 @@ export default function ItemsModal() {
         <IoMdClose size={25} className="absolute right-5 top-5" onClick={()=>{useModal.setState({modal:false})}} />
         <div className=" flex flex-col gap-5">
           <h1 className="text-2xl font-medium ">
-            {items[0]?.category.toUpperCase()}S
+            {items[0]?.category.toUpperCase()}
           </h1>
           <div className="grid grid-cols-3 gap-3 max-sm:grid-cols-2">
             {items.map((item) => (
